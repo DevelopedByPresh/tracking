@@ -1,4 +1,10 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
+RewriteEngine on
+Options +FollowSymlinks -MultiViews
+
+# to redirect my.site.com to my.site.com/index.html
+RewriteRule ^$ /index.html [R,L]
+
+# to redirect /dir1/dir2 to index.php?url=dir1/dir2
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
+RewriteCond  %{QUERY_STRING} !^url=
+RewriteRule ^([^/]+)/([^/]+)/?$ /index.php?url=$1/$2 [R,L,QSA]
