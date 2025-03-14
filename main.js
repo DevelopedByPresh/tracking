@@ -14,7 +14,7 @@ function Redirect(){
     setTimeout(function () { window.location = "package.html" }, 1);
    }
 
-   else if(track_no.value === 'CS-735915642234'){
+   else if(track_no.value === 'CS-735915642254'){
     setTimeout(function () { window.location = "parcel.html" }, 1);
    }
    
