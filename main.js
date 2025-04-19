@@ -14,11 +14,11 @@ function Redirect(){
     setTimeout(function () { window.location = "package.html" }, 1);
    }
 
-   else if(track_no.value === 'CS-73591564567'){
+   else if(track_no.value === 'CS-7359154432'){
     setTimeout(function () { window.location = "parcel.html" }, 1);
    }
 
-   else if(track_no.value === 'CS-46892892546'){
+   else if(track_no.value === 'CS-46892896578'){
     setTimeout(function () { window.location = "goods.html" }, );
    }
    
