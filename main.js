@@ -10,8 +10,8 @@ function Redirect(){
   
 
 
-   else if(track_no.value === 'CS-73591564279'){
-    setTimeout(function () { window.location = "package.html" }, 1);
+   else if(track_no.value === 'CS-5849264928'){
+    setTimeout(function () { window.location = "arrival.html" }, 1);
    }
 
    else if(track_no.value === 'CS-8562384282'){
@@ -20,6 +20,16 @@ function Redirect(){
 
    else if(track_no.value === 'CS-46789379057'){
     setTimeout(function () { window.location = "goods.html" }, );
+   }
+
+
+   else if(track_no.value === 'CS-467885346'){
+    setTimeout(function () { window.location = "delivery.html" }, );
+   }
+
+
+   else if(track_no.value === 'CS-73591564279'){
+    setTimeout(function () { window.location = "package.html" }, );
    }
    
    
