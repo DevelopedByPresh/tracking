@@ -4,7 +4,7 @@ var val = document.querySelector('.val')
 
 function Redirect(){
 
-  if(track_no.value === 'CS-73591564456'){
+  if(track_no.value === 'CS-7890362849'){
    setTimeout(function () { window.location = "myTracking.html" }, 1);
   }
   
